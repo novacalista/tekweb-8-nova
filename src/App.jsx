@@ -7,10 +7,10 @@ import Contact from './pages/contact';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/tekweb-8-nova">
       <div className="font-sans bg-gray-100 min-h-screen">
         <Navbar />
-        
+
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/projects" element={<Projects />} />

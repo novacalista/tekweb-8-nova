@@ -4,6 +4,6 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/2400016092_Nova-Syafa-Calista_P8/',
+  base: '/tekweb-8-nova/',
   plugins: [react(), tailwindcss()],
 })
